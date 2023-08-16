@@ -82,18 +82,16 @@
 
 
     3.4 模型訓練結果：
-<img src="https://github.com/sylvia1830/-/assets/137684401/5586fb75-f289-476b-9cf9-943926fc8418" alt="image" width="400">
+<img src="https://github.com/sylvia1830/House-price/assets/137684401/b9573bad-7497-4c49-9846-a6500aefcff9" alt="image" width="400">
+
 
     3.5 將測試資料放入模型，查看預測結果：
-![image](https://github.com/sylvia1830/-/assets/137684401/737beac5-faa3-45d3-84f4-ad4ae1c242ed)
+![image](https://github.com/sylvia1830/House-price/assets/137684401/ec510130-fcc0-4484-8dbd-104c2091a439)
 
-<img src="https://github.com/sylvia1830/-/assets/137684401/33c4bdad-e377-466a-b1b5-9f9fd200da0c" alt="image" width="600">
-
-
+<img src="https://github.com/sylvia1830/House-price/assets/137684401/0e6089f1-274d-4bd6-b233-01282f2fca60" alt="image" width="600">
 
 
     3.6 匯出模型，供前端網頁使用。
-
 
 
 
@@ -101,7 +99,7 @@
 ### 4. 網頁視覺化呈現(Python Dash)
 將Orange建置完成模型導入Python中，以Python Dash呈現房價預估使用者介面。
 
-https://github.com/sylvia1830/-/assets/137684401/fcdfcdb9-3a85-421c-a99e-3d6b2fed86e1
+https://github.com/sylvia1830/House-price/assets/137684401/f6b63402-d38f-404d-a294-9bedbc5b67ca
 
 
 
