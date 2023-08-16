@@ -43,20 +43,20 @@
 
     2.4 數據轉換：
         將房屋總價資料取log，使其呈現常態分布，並刪除離群值，進而提升模型的預測效能。
-| ![image](https://github.com/sylvia1830/-/assets/137684401/eeb9cc79-0f83-41f5-9a5c-e338d94f4b7e) | ![image](https://github.com/sylvia1830/-/assets/137684401/477a6f3c-13cc-450f-9e31-54a4f87c93fa) |
+| ![image](https://github.com/sylvia1830/House-price/assets/137684401/0229e765-45e5-462f-a348-21052de31ce1) | ![image](https://github.com/sylvia1830/House-price/assets/137684401/02eeac1d-c48a-476d-9333-4d5ca6d31c25) |
 |:-----------------------------------:|:------------------------------------:|
 
 
     2.5 資料離散化：
         使用Orange Data Mining工具，將移轉層次分為低中高樓層，建物坪數、屋齡以區間表示。
-<img src="https://github.com/sylvia1830/-/assets/137684401/3d6ea989-ee6e-484b-936a-380e665c817e" alt="image" width="400">
+<img src="https://github.com/sylvia1830/House-price/assets/137684401/e53d67d3-8566-4b64-a34d-cddc2e4ce4f0" alt="image" width="400">
 
-| ![Image 1](https://github.com/sylvia1830/-/assets/137684401/2f4b78a5-7309-45a9-be39-e3caab66a0a7) | ![Image 2](https://github.com/sylvia1830/-/assets/137684401/d26039eb-a3a0-43d4-a411-bcdc5c1f92bf) |
+| ![image](https://github.com/sylvia1830/House-price/assets/137684401/23dc085a-7af6-4975-a27e-e406fc13c4cf) | ![image](https://github.com/sylvia1830/House-price/assets/137684401/66326c62-ec43-4570-86ec-e56a5572af02) |
 |:-----------------------------------:|:------------------------------------:|
 
     2.6 以Spearman Correlation(斯皮爾曼相關係數)，查看各項設施與房屋總價相關性：
         發現各設施與房價為弱正相關，且關聯程度皆並不高，因此附近設施將不列入接下來的建置模型參數中。
-| ![image](https://github.com/sylvia1830/-/assets/137684401/04009314-0def-42fc-ab9a-abf1459c5a3e) | ![image](https://github.com/sylvia1830/-/assets/137684401/674c17a4-46de-47d0-a87c-ee76e240ce62) |
+| ![image](https://github.com/sylvia1830/House-price/assets/137684401/8af9493c-e65c-4d35-a17e-aaa43652a371) | ![image](https://github.com/sylvia1830/House-price/assets/137684401/0cd927ef-f0d3-4232-9cef-c23edf759e8a) |
 |:-----------------------------------:|:------------------------------------:|
 
     
@@ -65,20 +65,20 @@
 
 <a name="Model"></a>
 ### 3. 模型建置(Orange Data Mining)
-<img src="https://github.com/sylvia1830/-/assets/137684401/9161308e-5c1c-4980-b52f-cb6a544ce9fc" alt="image" width="900">
+<img src="https://github.com/sylvia1830/House-price/assets/137684401/0fdac221-cdfe-44bb-b761-f3eecd6c8fe3" alt="image" width="900">
 
     3.1 選擇建置模型所需參數
-<img src="https://github.com/sylvia1830/-/assets/137684401/fd5bf7ce-6871-44ae-bc7a-72daa1e16734" alt="image" width="200">
+<img src="https://github.com/sylvia1830/House-price/assets/137684401/3299c06e-975c-43ab-95e4-d6e3c82efdc7" alt="image" width="200">
 
 
     3.2 拆分資料：
         以stratify sample(分層抽樣)方式，將資料拆分為訓練資料(80%)及測試資料(20%)。
-<img src="https://github.com/sylvia1830/-/assets/137684401/c1c6cf88-b446-4a51-8f59-d1d56b6285a6" alt="image" width="200">
+<img src="https://github.com/sylvia1830/House-price/assets/137684401/66ebaa33-f390-4808-a92f-49148ed6789c" alt="image" width="200">
 
 
 
     3.3 將訓練資料以線性回歸建置模型：
-<img src="https://github.com/sylvia1830/-/assets/137684401/7c5ac4f1-507b-4331-980a-4bc09a9310a5" alt="image" width="250">
+<img src="https://github.com/sylvia1830/House-price/assets/137684401/ab176a89-792a-4434-9756-5f44f394ec08" alt="image" width="250">
 
 
     3.4 模型訓練結果：
