@@ -27,6 +27,8 @@
 
 <a name="data_cleaning"></a>
 ### 2. 資料工程
+Folder：house_cleandata
+
     2.1 數據清理：
         * 僅保留中山區資料，並刪除非相關資料。
         * 切割交易日期為三欄(交易年、交易月、交易日)，並刪除不正常日期資料。
@@ -65,6 +67,8 @@
 
 <a name="Model"></a>
 ### 3. 模型建置(Orange Data Mining)
+Folder：orange_model
+
 <img src="https://github.com/sylvia1830/House-price/assets/137684401/0fdac221-cdfe-44bb-b761-f3eecd6c8fe3" alt="image" width="900">
 
     3.1 選擇建置模型所需參數
@@ -97,6 +101,7 @@
 
 <a name="dash"></a>
 ### 4. 網頁視覺化呈現(Python Dash)
+Folder：house_dashAPP
 將Orange建置完成模型導入Python中，以Python Dash呈現房價預估使用者介面。
 
 https://github.com/sylvia1830/House-price/assets/137684401/f6b63402-d38f-404d-a294-9bedbc5b67ca
